@@ -1,0 +1,27 @@
+a = -2;
+print(a);
+a = 2;
+b = 3;
+c = a + b;
+print(c);
+c = a - b;
+print(c);
+c = 3.33 * b;
+print(c);
+c = 10 / 3;
+print(c);
+c = a ** b;
+print(c);
+
+a = True;
+b = False;
+c = a * b;
+print(c);
+c = a + b;
+print(c);
+c = a and b;
+print(c);
+c = a or b;
+print(c);
+c = a and not b;
+print(c);

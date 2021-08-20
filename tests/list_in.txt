@@ -1,0 +1,12 @@
+a = [[1, 2, 3], 2, True, 6, False];
+print(a);
+b = a[1];
+c = a[3];
+print(b);
+print(c);
+b = a[2];
+c = a[4];
+print(b);
+print(c);
+b = a[0];
+print(b);

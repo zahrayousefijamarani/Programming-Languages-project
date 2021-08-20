@@ -1,0 +1,35 @@
+a = True;
+b = False;
+
+if a == b:
+  print(999);
+else:
+  print(88);
+  ;
+
+if not a == b:
+  print(88);
+else:
+  print(999);
+  ;
+
+a = 1;
+b = 3;
+c = 4;
+if a < 2 < b == 3 < c:
+  print(88);
+else:
+  print(999);
+  ;
+
+if a > 2:
+  print(999);
+else:
+  print(88);
+  ;
+
+if a < 2 > 3:
+  print(999);
+else:
+  print(88);
+  ;

@@ -1,0 +1,28 @@
+def maximum(arr = [1, 2]):
+  max = -1;
+  error = False;
+  for e in arr:
+    if e < 0:
+      error = True;
+      break;
+    else:
+      if max < e:
+        max = e;
+      else:
+        pass;
+      ;
+    ;
+  ;
+  if error:
+    return;
+  else:
+    return max;
+  ;
+;
+
+arr = [1, 2, 3, -4, 5];
+ans = maximum(arr);
+print(ans);
+arr = [1, 5, 2, 6, 3, 88, 1, 1, 0];
+ans = maximum(arr);
+print(ans);

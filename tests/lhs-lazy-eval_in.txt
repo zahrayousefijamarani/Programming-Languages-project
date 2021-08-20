@@ -1,0 +1,17 @@
+def f():
+  print(777);
+  return 5;
+  ;
+
+def g():
+  print(777);
+  return True;
+  ;
+
+
+a = 2;
+b = 0;
+c = False;
+d = b * f();
+e = c * g();
+print(a);

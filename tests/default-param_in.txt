@@ -1,0 +1,12 @@
+def f(x = 10, y = 20):
+  print(x);
+  print(y);
+  return 88;
+  ;
+
+a = f();
+print(a);
+a = f(5);
+print(a);
+a = f(5, 5);
+print(a);
